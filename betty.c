@@ -1,5 +1,4 @@
-#include <string.h>
-#include <unistd.h>
+#include "main.h"
 
 /**
  * Main entry - Code that passess Betty checks
