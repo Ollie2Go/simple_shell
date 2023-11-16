@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * Main entry - Code that passess Betty checks
- *
- * Returns 0 (success)
+ * Main entry - Prints a code for Betty
+ * 
+ * Return 0 (success)
  */
+ 
+int main(void) {
+    const char *code = "Hello, World!\n";
+    write(1, code, strlen(code));
 
-int main(void)
-{
-    const char *code = "Hello, Betty.\n";	
-    write(1, &code, strlen(code));
     return 0;
 }
